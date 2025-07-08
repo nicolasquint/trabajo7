@@ -26,7 +26,8 @@ function agregarGato(emoji) {
     contenedor.insertBefore(caja, contenedor.firstChild);
 
     
-  } else {
+  } 
+  else {
     
     const nuevoGato = document.createElement("span");
     nuevoGato.textContent = emoji;
